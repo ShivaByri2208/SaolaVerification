@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/adminlogin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+
+
+    android:layout_margin="40dp"
+
+
+    tools:context=".AdminLoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Hey\nWelcome Back!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@color/primary"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/adminemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/roundedcorners"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"
+
+        android:textColorHint="#7BFFFFFF"
+        android:textColor="#7BFFFFFF"
+        android:hint="email"
+         />
+
+    <EditText
+        android:id="@+id/adminpaswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"
+
+        android:background="@drawable/roundedcorners"
+        android:textColorHint="#7BFFFFFF"
+        android:padding="15dp"
+        android:textColor="#7BFFFFFF"
+        android:hint="password"/>
+
+    <Button
+        android:id="@+id/adminloginbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:text="Login" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Time? "
+
+            android:textColor="@color/secondary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SignUp"
+            android:id="@+id/signupfromadmin"
+            android:textColor="@color/primary"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

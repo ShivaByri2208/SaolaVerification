@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signupactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+
+    android:layout_margin="40dp"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Register Now !"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="@color/primary"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/signupemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/roundedcorners"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"
+        android:textColorHint="#7BFFFFFF"
+        android:textColor="#7BFFFFFF"
+        android:hint="your institution email"
+        />
+
+    <EditText
+        android:id="@+id/signuppasswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/roundedcorners"
+        android:textColorHint="#7BFFFFFF"
+        android:textColor="#7BFFFFFF"
+        android:padding="15dp"
+        android:hint="password"/>
+    <EditText
+        android:id="@+id/signupconfirmpasswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/roundedcorners"
+        android:textColorHint="#7BFFFFFF"
+        android:textColor="#7BFFFFFF"
+        android:padding="15dp"
+        android:hint="confirm password"/>
+
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:text="SignUp" />
+
+
+
+
+
+
+</LinearLayout>

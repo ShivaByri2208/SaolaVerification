@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "602827892206",
+    "project_id": "examverification-8069f",
+    "storage_bucket": "examverification-8069f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602827892206:android:ff58bd296350860ca81aff",
+        "android_client_info": {
+          "package_name": "com.example.saolaverification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxiBLHh6fTpqNtAGNWyltAqeJBj_0NumM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

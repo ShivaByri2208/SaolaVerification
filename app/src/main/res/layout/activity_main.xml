@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:layout_margin="20dp"
+    android:background="?android:attr/colorBackground"
+
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/vnrvjiet"
+        android:layout_marginBottom="25dp"
+
+        />
+    <Button
+        android:id="@+id/btn_admin_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Login"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/primary"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_faculty_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty Login"
+        android:backgroundTint="@color/primary"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>
